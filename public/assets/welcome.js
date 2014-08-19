@@ -1,0 +1,1 @@
+(function(){this.checkid=function(e){return 5>e?!0:!1}}).call(this);

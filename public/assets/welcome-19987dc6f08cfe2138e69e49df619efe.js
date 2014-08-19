@@ -1,0 +1,1 @@
+(function(){var e;e=function(e){return 10>e?!0:!1}}).call(this);

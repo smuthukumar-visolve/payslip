@@ -1,0 +1,11 @@
+<h1>Welcome#index</h1>
+<div> To get employee list click the link below </div>
+<%= javascript_include_tag params[:controller] %> 
+<form id='myform'>
+	<label> Enter Employee Id : </label> 
+	<%= number_field_tag 'quantity', nil, in: 1...10 %>
+	<input type="submit" value="Show employee Details" onclick='alert(checkid(quantity.value))'>
+</form>
+<form method="post" action="/welcome/logged_out" class="button_to">
+	<div><input value="Logout" type="submit" /></div>
+</form>

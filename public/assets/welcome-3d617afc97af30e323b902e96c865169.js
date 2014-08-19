@@ -1,0 +1,1 @@
+(function(){this.myfunc=function(){return alert("hai")}}).call(this);
